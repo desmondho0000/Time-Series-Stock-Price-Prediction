@@ -117,10 +117,6 @@ having a similar accuracy value which is MAPE 0.31, MSE 0.024 and RMSE 0.16.
 Therefore, LSTM model is the best model on this paper for prediction stock market price 
 compare with other ARIMA model.
 
-Models MSE MAE RMSE MAPE
-LSTM 0.0247096 0.1213672 0.1571928 0.0318378
-ARIMA 3.5613131 1.5105113 1.8871441 0.5049844
-Auto-ARIMA 10.537212 2.6749127 3.2183127 0.8731278
 
 
 Analysis Results
