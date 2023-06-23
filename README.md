@@ -116,6 +116,10 @@ parameters. Second layer in 64 neurons and does not return sequences and This la
 trainable parameters. Second Dense layer, layer has 26 trainable parameters. Overall, the 
 model has 117,619 trainable parameters
 
+![d](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/bff5cc26-fdb2-41c0-b495-2183fd71eaa2)
+
+![da](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/f8a3e57f-7df7-4a4a-a5b4-3f0b06b636ee)
+
 ## CONCLUSION
 
 #### Model Evaluation
