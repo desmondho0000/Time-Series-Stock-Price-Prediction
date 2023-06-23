@@ -1,9 +1,9 @@
 # Time-Series-Stock-Price-Prediction
 
-ABSTRACT
+# _ABSTRACT_
 In this project, we are studying the behaviour of stock market prices using some statistical methods and deep learning method. Use time series analysis such as autoregressive integrated moving average ARIMA (p, d, q) model and deep learning such as long short-term memory networks (LSTM) model. We discuss the economic crisis problem, and then explain how autoregressive integrated moving average ARIMA (p, d, q) model models and long short-term memory networks (LSTM) model work. The forecasting method can help them to reduce the risk. The dataset Top Glove Corp Bhd (7113.KL) using in our project. Therefore, we will use MAPE (mean absolute percentage error), MSE (Mean Square Error) and RMSE (Root Mean Square Error) to find out which model is suitable model for prediction stock market price. We found that accuracy MAPE LSTM 3.1% is lower that ARIMA MSE 50%. Therefore, LSTM is more suitable model for prediction stock market price.
 
-INTRODUCTION
+## INTRODUCTION
 
 The fact that the global financial crisis has resulted in a shortage of resources and a broad 
 decrease in stock value is no longer breaking news. The stock market is a platform that 
@@ -23,15 +23,15 @@ time, but not always, observations are sorted across time, especially when they 
 uniformly. In more theoretical literature, a time series is merely an observation or 
 measurement expression of a random process.
 
-OBJECTIVE
+## OBJECTIVE
 
 Our objective on this paper is to introduce time series autoregressive integrated moving 
 average (ARIMA) model and deep learning model Long Short-Term Memory (LSTM) to 
 find out which model is suitable model for prediction stock market price.
 
-METHODOLOGY
+## METHODOLOGY
 
-Data Description 
+### Data Description 
 The company selected for this paper is Top Glove Corp Bhd (7113.KL), which is publicly 
 available on the Yahoo Finance website. Because this company is a glove factory that 
 produces medical gloves and other types of gloves, it is important to do some research on it. 
@@ -56,9 +56,9 @@ forget or remember information. The four types of gates utilised in LSTM models 
 gates, forget gates, change gates, and output gates.
  
 
-RESULT
+## RESULT
 
-Data Splitting
+### Data Splitting
 In our experiment, the dataset used in this paper consists of the adjusted closing price in 
 daily. The dataset is corresponding the period from 27/01/2017 to 31/12/2021. In addition, for 
 ARIMA model and LSTM model, we selected the data from 27/01/2017 to 14/12/2020 for 
@@ -76,6 +76,7 @@ Therefore, we can use this series to found the ACF plot and PACF plot.
 
 
 ![ACF and PACF](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/ce1d72ba-bebf-4ddd-a476-ab1958495352)
+
 3. Parameter estimation
 ARIMA model is contains three parameters: p, d and q.
 First, through by the ADF test, to check the stationary after the differencing. We using one 
@@ -87,16 +88,17 @@ criterion and MSE to select the best model. We found that using ACF and PACF, AR
 MA = 2 and 5. The ARIMA models can written as ARIMA (2, 1, 2) and ARIMA (2, 1, 5). 
 ARIMA (2, 1, 5) having a lowest AIC and MSE which is 3.56 and -868.654. Therefore, we 
 can use this model as our paper.
+
 ![Screenshot 2023-06-23 145305](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/d0b1fbe5-b718-40e6-b6f6-7e63fbf3f1eb)
 
 
-4. Auto-ARIMA 
+5. Auto-ARIMA 
 For the Auto-ARIMA, is used the grid search method to choose the parameter. For the grid 
 search method, Auto-ARIMA also used AIC to choose the best parameter p, d and q. On 
 Auto-ARIMA, ARIMA model found that is ARIMA (2, 1, 3) which is AIC -866.689.
 
 
-LSTM model 
+## LSTM model 
 1. Normalization
 To detect the stock market price pattern, the normalization method is very important on the 
 model. LSTM is the one of the neural networks, we will use “min-max’ normalization 
@@ -114,9 +116,9 @@ parameters. Second layer in 64 neurons and does not return sequences and This la
 trainable parameters. Second Dense layer, layer has 26 trainable parameters. Overall, the 
 model has 117,619 trainable parameters
 
-CONCLUSION
+## CONCLUSION
 
-Model Evaluation
+#### Model Evaluation
 Accuracy metrics are obtained directly from 2020-12-15 to 2021-12-31. MAPE (mean 
 absolute percentage error), MSE (Mean Square Error) and RMSE (Root Mean Square Error) is 
 commonly to interpret and explain in the Time series diagnostic check. We found that LSTM 
@@ -126,7 +128,7 @@ compare with other ARIMA model.
 
 
 
-Analysis Results
+## Analysis Results
 To sum up, this project mainly focuses on studying the movement of Top Glove (7113.KL) 
 stock prices. Using statistical methods and deep learning methods to find a suitable model to 
 predict stock market prices. In this study, the two models found are Automatic Integrating 
