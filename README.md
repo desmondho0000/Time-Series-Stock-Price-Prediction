@@ -84,11 +84,15 @@ criterion and MSE to select the best model. We found that using ACF and PACF, AR
 MA = 2 and 5. The ARIMA models can written as ARIMA (2, 1, 2) and ARIMA (2, 1, 5). 
 ARIMA (2, 1, 5) having a lowest AIC and MSE which is 3.56 and -868.654. Therefore, we 
 can use this model as our paper.
+![Screenshot 2023-06-23 145305](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/d0b1fbe5-b718-40e6-b6f6-7e63fbf3f1eb)
 
-3. Auto-ARIMA 
+
+4. Auto-ARIMA 
 For the Auto-ARIMA, is used the grid search method to choose the parameter. For the grid 
 search method, Auto-ARIMA also used AIC to choose the best parameter p, d and q. On 
 Auto-ARIMA, ARIMA model found that is ARIMA (2, 1, 3) which is AIC -866.689.
+
+
 LSTM model 
 1. Normalization
 To detect the stock market price pattern, the normalization method is very important on the 
