@@ -64,7 +64,7 @@ daily. The dataset is corresponding the period from 27/01/2017 to 31/12/2021. In
 ARIMA model and LSTM model, we selected the data from 27/01/2017 to 14/12/2020 for 
 the training dataset and 2020/12/15 to 2022/12/31 is used to testing dataset.
 
-
+![datasplit](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/7b20f5a9-b954-49cc-9695-e1e8af75aa9c)
 
 ARIMA model 
 1. Check for stationarity
@@ -100,6 +100,7 @@ For the Auto-ARIMA, is used the grid search method to choose the parameter. For 
 search method, Auto-ARIMA also used AIC to choose the best parameter p, d and q. On 
 Auto-ARIMA, ARIMA model found that is ARIMA (2, 1, 3) which is AIC -866.689.
 
+![auto ARIMA](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/93e3aca2-f34c-4263-b3f0-8c1365a060a1)
 
 ## LSTM model 
 1. Normalization
