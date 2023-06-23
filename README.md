@@ -63,6 +63,9 @@ In our experiment, the dataset used in this paper consists of the adjusted closi
 daily. The dataset is corresponding the period from 27/01/2017 to 31/12/2021. In addition, for 
 ARIMA model and LSTM model, we selected the data from 27/01/2017 to 14/12/2020 for 
 the training dataset and 2020/12/15 to 2022/12/31 is used to testing dataset.
+
+
+
 ARIMA model 
 1. Check for stationarity
 On this paper, ARIMA model is require to meet the requirement of stationary data or not 
