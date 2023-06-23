@@ -134,7 +134,7 @@ having a similar accuracy value which is MAPE 0.31, MSE 0.024 and RMSE 0.16.
 Therefore, LSTM model is the best model on this paper for prediction stock market price 
 compare with other ARIMA model.
 
-
+![result](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/a25ca95f-5674-49eb-bfb0-82f933c59f6a)
 
 ## Analysis Results
 To sum up, this project mainly focuses on studying the movement of Top Glove (7113.KL) 
