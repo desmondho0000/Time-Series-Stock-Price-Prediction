@@ -73,6 +73,8 @@ non-stationary we can use the first difference to make the data series become st
 this part, we found that first difference on ADF test p-value is 7.453808e-09 which is less 
 than 0.05 which mean is hypoyhesis is rejected and conclude the series is stationary. 
 Therefore, we can use this series to found the ACF plot and PACF plot.
+
+
 ![ACF and PACF](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/ce1d72ba-bebf-4ddd-a476-ab1958495352)
 3. Parameter estimation
 ARIMA model is contains three parameters: p, d and q.
