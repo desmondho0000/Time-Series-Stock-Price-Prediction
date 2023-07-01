@@ -92,8 +92,7 @@ MA = 2 and 5. The ARIMA models can written as ARIMA (2, 1, 2) and ARIMA (2, 1, 5
 ARIMA (2, 1, 5) having a lowest AIC and MSE which is 3.56 and -868.654. Therefore, we 
 can use this model as our paper.
 
-
-
+![dd](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/8d7d2293-b70b-4084-8ebf-c80a94830b4c)
 
 5. Auto-ARIMA 
 For the Auto-ARIMA, is used the grid search method to choose the parameter. For the grid 
@@ -103,6 +102,7 @@ Auto-ARIMA, ARIMA model found that is ARIMA (2, 1, 3) which is AIC -866.689.
 ![auto ARIMA](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/4d8cdf81-9c00-431c-ae68-4d8facdd3914)
 
 Therefore ARIMA (2, 1, 5) choose for prediction.
+![FA](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/dd6d4d7e-396a-4d0c-b1fa-a764e0424562)
 
 ![Screenshot 2023-06-23 145305](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/637cc3ff-905f-46aa-b34a-0ef746c84cb0)
 
