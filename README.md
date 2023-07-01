@@ -92,7 +92,7 @@ MA = 2 and 5. The ARIMA models can written as ARIMA (2, 1, 2) and ARIMA (2, 1, 5
 ARIMA (2, 1, 5) having a lowest AIC and MSE which is 3.56 and -868.654. Therefore, we 
 can use this model as our paper.
 
-![Screenshot 2023-06-23 145305](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/637cc3ff-905f-46aa-b34a-0ef746c84cb0)
+
 
 
 5. Auto-ARIMA 
@@ -101,6 +101,10 @@ search method, Auto-ARIMA also used AIC to choose the best parameter p, d and q.
 Auto-ARIMA, ARIMA model found that is ARIMA (2, 1, 3) which is AIC -866.689.
 
 ![auto ARIMA](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/4d8cdf81-9c00-431c-ae68-4d8facdd3914)
+
+Therefore ARIMA (2, 1, 5) choose for prediction.
+
+![Screenshot 2023-06-23 145305](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/637cc3ff-905f-46aa-b34a-0ef746c84cb0)
 
 ## LSTM model 
 1. Normalization
