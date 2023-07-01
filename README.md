@@ -64,7 +64,7 @@ daily. The dataset is corresponding the period from 27/01/2017 to 31/12/2021. In
 ARIMA model and LSTM model, we selected the data from 27/01/2017 to 14/12/2020 for 
 the training dataset and 2020/12/15 to 2022/12/31 is used to testing dataset.
 
-![datasplit](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/7b20f5a9-b954-49cc-9695-e1e8af75aa9c)
+![datasplit](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/81ffce04-f660-4f62-ad52-3f9a04b28aff)
 
 ARIMA model 
 1. Check for stationarity
@@ -78,7 +78,7 @@ than 0.05 which mean is hypoyhesis is rejected and conclude the series is statio
 Therefore, we can use this series to found the ACF plot and PACF plot.
 
 
-![ACF and PACF](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/ce1d72ba-bebf-4ddd-a476-ab1958495352)
+![ACF and PACF](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/536df6c2-131c-420b-8d10-72468e1e8d95)
 
 3. Parameter estimation
 ARIMA model is contains three parameters: p, d and q.
@@ -92,7 +92,7 @@ MA = 2 and 5. The ARIMA models can written as ARIMA (2, 1, 2) and ARIMA (2, 1, 5
 ARIMA (2, 1, 5) having a lowest AIC and MSE which is 3.56 and -868.654. Therefore, we 
 can use this model as our paper.
 
-![Screenshot 2023-06-23 145305](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/d0b1fbe5-b718-40e6-b6f6-7e63fbf3f1eb)
+![Screenshot 2023-06-23 145305](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/637cc3ff-905f-46aa-b34a-0ef746c84cb0)
 
 
 5. Auto-ARIMA 
@@ -100,7 +100,7 @@ For the Auto-ARIMA, is used the grid search method to choose the parameter. For 
 search method, Auto-ARIMA also used AIC to choose the best parameter p, d and q. On 
 Auto-ARIMA, ARIMA model found that is ARIMA (2, 1, 3) which is AIC -866.689.
 
-![auto ARIMA](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/93e3aca2-f34c-4263-b3f0-8c1365a060a1)
+![auto ARIMA](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/4d8cdf81-9c00-431c-ae68-4d8facdd3914)
 
 ## LSTM model 
 1. Normalization
@@ -120,9 +120,9 @@ parameters. Second layer in 64 neurons and does not return sequences and This la
 trainable parameters. Second Dense layer, layer has 26 trainable parameters. Overall, the 
 model has 117,619 trainable parameters
 
-![d](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/bff5cc26-fdb2-41c0-b495-2183fd71eaa2)
+![d](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/732e3e25-7429-4422-80a3-d3e299ba1725)
 
-![da](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/f8a3e57f-7df7-4a4a-a5b4-3f0b06b636ee)
+![da](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/f488ad84-2847-4a5d-8d6a-1f1f8302b6f8)
 
 ## CONCLUSION
 
@@ -134,7 +134,8 @@ having a similar accuracy value which is MAPE 0.31, MSE 0.024 and RMSE 0.16.
 Therefore, LSTM model is the best model on this paper for prediction stock market price 
 compare with other ARIMA model.
 
-![result](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/a25ca95f-5674-49eb-bfb0-82f933c59f6a)
+![result](https://github.com/desmondho0000/Time-Series-Stock-Price-Prediction/assets/62163350/c1b32616-69ca-4dd0-9381-8c01c3366272)
+
 
 ## Analysis Results
 To sum up, this project mainly focuses on studying the movement of Top Glove (7113.KL) 
