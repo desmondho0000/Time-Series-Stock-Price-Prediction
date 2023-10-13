@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Logo/watch logo.png" type="image" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Store Location</title>
+    <style>
+        .button {
+            background-color: black;
+            text-align: center;
+            padding: 15px 30px;
+            font-size: 16px;
+            margin-left: 50px;
+            margin-bottom: 200px;
+            color: white;
+        }
+
+        h1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Logo/watch logo.png');
+            background-position: 100% 30%;
+            margin-top: 0px;
+            height: 200px;
+            text-align: center;
+            color: white;
+            padding-top: 70px;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <p>Vision Watch</p>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#">Product</a>
+                    <ul>
+                        <p style="padding:0px 0px 0px 10px; font-size:20px;">G shock</p>
+                        <li><a href="./gshock men.html">G shock Men</a></li>
+                        <li><a href="./gshock women.html">G shock Women</a></li>
+                        <p style="padding:0px 0px 0px 10px; font-size:20px;">Rolex</p>
+                        <li><a href="./Rolex Men.html">Rolex Men</a></li>
+                        <li><a href="Rolex Men.html">Rolex Women</a></li>
+                        <p style="padding:0px 0px 0px 10px; font-size:20px;">Richard Mille</p>
+                        <li><a href="richardMille men.html">RM Men</a></li>
+                        <li><a href="RichardMille Women.html">RM Women</a></li>
+                        <p style="padding:0px 0px 0px 10px; font-size:20px;">Audemars Piguet</p>
+                        <li><a href="AP Men.html">AP Men</a></li>
+                        <li><a href="AP  Women.html">AP Women</a></li>
+                        <p style="padding:0px 0px 0px 10px; font-size:20px;">Hublot</p>
+                        <li><a href="hublot men.html">Hublot Men</a></li>
+                        <li><a href="hublot women.html">Hublot Women</a></li>
+                    </ul>
+                </li>
+                <li><a href="./aboutus.html">About us</a></li>
+                <li><a href="storelocation.html">Store Location</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                <li><a href="./FAQ.html">FAQ</a></li>
+                <li class="cart">
+                    <a href="cart.html">
+                        <ion-icon name="basket"></ion-icon>Cart <span>0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Store Location</h1>
+
+    <p style="padding-top:50px; text-align:center; font-size:50px; font-style: italic;">Choose a brand</p>
+    <p style="text-align: center;">(Only shows store at Malaysia)</p>
+    <br />
+
+    <button style="margin-left: 250px;" class="button" type="button"
+        onclick="document.getElementById('rolex').style.display='block'">Rolex
+        <div id="rolex" class="modal1">
+            <form class="modal-content animate">
+                <h3 style="color: black;"> WOO HING BROTHERS ROLEX BOUTIQUE</h3>
+                <p style="color: black;">
+                    Address : 96 Lebuh Campbell 10100 Georgetown Penang Malaysia<br />
+                    Contact No : +60 88 255-341<br /><br />
+                </p>
+                <h3 style="color: black;">THE ROLEX CENTRE</h3>
+                <p style="color: black;">
+                    Address :Menara Dion, #01-02, 27 Jalan Sultan Ismail,<br />
+                    50250 Kuala Lumpur, Malaysia<br />
+                    Contact No : +60 7 336 5709
+                </p>
+            </form>
+    </button>
+
+    <button class="button" type="button"
+        onclick="document.getElementById('Audermars Piguet').style.display='block'">Audermars
+        Pidguet
+        <div id="Audermars Piguet" class="modal1">
+            <form class="modal-content animate">
+                <h3 style="color: black;">AUDEMARS PIGUET BOUTIQUE KUALA LUMPUR</h3>
+                <p style="color: black;">
+                    Address : Level 33, Westin Kuala Lumpur 199 Jalan Bukit Bintang, Kuala Lumpur 55100,
+                    Malaysia<br />
+                    Contact No : +603 2141 8151, +60 19 662 1582
+                </p>
+                <h3 style="color: black;">SINCERE WATCH SDN BHD KLCC</h3>
+                <p style="color: black;">
+                    Address : Lot G03M-P, Ground Floor Suria KLCC Shopping Centre Kuala Lumpur City
+                    Centre 50088
+                    Kuala Lumpur Malaysia<br />
+                    Contact No : +603 2166 2181
+                </p>
+            </form>
+
+        </div>
+    </button>
+
+    <button class="button" type="button"
+        onclick="document.getElementById('Richard Mille').style.display='block'">Richard
+        Mille
+        <div id="Richard Mille" class="modal2">
+            <form class="modal-content animate">
+                <h3 style="color: black;">RH WATCH KUALA LUMPUR</h3>
+                <p style="color: black;">
+                    Address : KL City Centre, Klcc G11 Ground Floor, 50088 Kuala Lumpur, Federal Territory of Kuala
+                    Lumpur<br />
+                    Contact No : 03-2161 2380
+                </p>
+            </form>
+        </div>
+    </button>
+
+    <button class="button" type="button" onclick="document.getElementById('Hublot').style.display='block'">Hublot
+        <div id="Hublot" class="modal3">
+            <form class="modal-content animate">
+                <h3 style="color: black;">HUBLOT BOUTIQUE KUALA LUMPUR (SURIA)</h3>
+                <p style="color: black;">
+                    Address : Lot G35B,Ground Floor, Suria KLCC, Kuala Lumpur City Centre, <br />
+                    Kuala Lumpur, 50088<br />
+                    Contact No : +60321817037/ +60321817038/ +60321817028
+                </p>
+            </form>
+        </div>
+    </button>
+
+    <button class="button" type="button" onclick="document.getElementById('Gshock').style.display='block'">G Shock
+        <div id="Gshock" class="modal4">
+            <form class="modal-content animate">
+                <h3 style="color: black;">G-SHOCK STORE IOI MALL PUCHONG</h3>
+                <p style="color: black;">
+                    Address : LOT GK-03A, GROUND FLOOR, IOI MALL, JALAN PUCHONG, BANDAR PUCHONG JAYA, 47100 PETALING
+                    JAYA,SELANGOR<br />
+                    Contact No : 03-80803228
+                </p>
+                <h3 style="color: black;">G-SHOCK STORE (ONE UTAMA SHOPPING CENTRE)</h3>
+                <p style="color: black;">
+                    Address : LOT F200, FIRST FLOOR, 1UTAMA SHOPPING CENTRE, LEBUH BANDAR UTAMA, PETALING JAYA,
+                    SELANGOR<br />
+                    Contact No : 03-77319039
+                </p>
+                <h3 style="color: black;">G-SHOCK STORE SOUTHKEY JOHOR BAHRU</h3>
+                <p style="color: black;">
+                    Address : LOT T-029, THIRD FLOOR, THE MALL, MID VALLEY SOUTHKEY, PERSIARAN SOUTHKEY 1, SOUTHKEY,
+                    80150 JOHOR BAHRU, JOHOR<br />
+                    Contact No : 07-3317415
+                </p>
+                <h3 style="color: black;">G-SHOCK STORE SUNWAY VELOCITY</h3>
+                <p style="color: black;">
+                    Address : LOT G-52, GROUND FLOOR, LINGKARAN SV, SUNWAY VELOCITY, 55100 KUALA LUMPUR <br />
+                    Contact No : 03-92867195
+                </p>
+            </form>
+        </div>
+    </button>
+    <br />
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="column">
+                    <h2>Vision Watch Collection</h2>
+                    <ul>
+                        <li>Rolex</li>
+                        <li>G shock</li>
+                        <li>HUBLOT</li>
+                        <li>Richard Millie</li>
+                        <li>Audemars Pidguet</li>
+                    </ul>
+                    <h2>Services</h2>
+                    <ul>
+                        <a href="./FAQ.html">
+                            <li>Frequently Asked Question</li>
+                        </a>
+                        <a href="./storelocation.html">
+                            <li>Store Location</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h2>Offical Channel</h2>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="column">
+                    <h2>Feedback Form</h2>
+                    <form action="mailto:officialVisionWatch@example.com" method="post" enctype="multipart/form-data"
+                        onsubmit="myFunction()" id="reset" name="validation">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" multiple><br><br>
+                        <label for="feedback">Feedback:</label><br>
+                        <textarea name="feedback" rows="5" cols="50"></textarea><br><br>
+                        <input type="submit" value="Submit" onclick="validateForm()">
+                        <input type="reset" value="Reset">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var modal1 = document.getElementById('rolex');
+        var modal = document.getElementById('Audermars Piguet');
+        var modal2 = document.getElementById('Richard Mille');
+        var modal3 = document.getElementById('Hublot');
+        var modal4 = document.getElementById('Gshock');
+
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            else if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+            else if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+            else if (event.target == modal3) {
+                modal3.style.display = "none";
+            }
+            else if (event.target == modal4) {
+                modal4.style.display = "none";
+            }
+        }
+        function validateForm() {
+            var z = document.forms["validation"]["email"].value;
+            var w = document.forms["validation"]["feedback"].value;
+
+            if (w == "" || z == "") {
+                alert("Form must be full filled");
+                return false;
+            }
+
+        
+            else {
+                alert("Thanks For Your Feedback");
+                document.getElementById("reset").reset();
+            }
+        }
+    
+
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="RichardMille Men.js"></script>
+
+</body>
+
+</html>
